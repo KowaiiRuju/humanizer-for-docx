@@ -1,0 +1,43 @@
+# Document and PDF deliverables (never commit binary drafts)
+output/*.docx
+output/*.pdf
+*.docx
+*.pdf
+~$*.docx
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Node and build dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Working, staging, and scratch directories
+tmp/
+scratch/
+docx-qa/
+qa/
+
+# Environment secrets and credentials
+.env
+.env.*
+!.env.example
+
+# Graphify persistent graph cache
+graphify-out/
+.graphify/
+
+# OS artifacts
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
